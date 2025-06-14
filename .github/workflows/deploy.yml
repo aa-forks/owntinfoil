@@ -41,7 +41,7 @@ jobs:
           python-version: '3.12'
           cache: 'poetry'
       - name: Install dependencies
-        run: poetry install
+        run: poetry install --no-root
 
       - name: Get version from pyproject.toml
         id: get_version
