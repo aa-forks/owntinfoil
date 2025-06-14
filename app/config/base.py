@@ -8,8 +8,7 @@ BOT_KEY: str | None = None
 BOT_URL: str = "http://example.com/"
 OVERRIDE_TORRENTS: bool = True
 SUCCESS_MESSAGE: str = (
-    "Please join telegram bot @Switch_library_bot (password 'marsel') - get games at maximum speed, "
-    "before tinfoil shops and absolutely free!"
+    "served by owntinfoil @ aagaming.me"
 )
 
 HOST: str = "0.0.0.0"  # noqa: S104
